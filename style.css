@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+}
+
+.post {
+  width: 500px;
+  height: 400px;
+  margin-bottom: 12rem;
+}
+
+.post-imagem {
+  height: 100%;
+  width: 100%;
+  background-image: url(imagens/images.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icones-de-interacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px 15px;
+}
+
+.icons {
+  min-width: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.post i {
+  font-size: 1.5rem;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid #eee;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 5px;
+  gap: 8px;
+}
+
+.imagem-de-perfil {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: url(imagens/images.jpeg) center no-repeat;
+  background-size: 100% 100%;
+}
+
+.opcoes {
+  padding: 10px;
+}
+
+.opcoes i {
+  font-size: 1rem;
+}
+
+.legenda, .curtidas {
+  padding: 0 15px;
+  margin-bottom: 6px;
+}
