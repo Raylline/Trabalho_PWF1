@@ -75,6 +75,14 @@ body {
   background-size: 100% 100%;
 }
 
+.imagem-de-teste {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fidocode.com.br%2Fblog%2Fprogramacao%2F5-profissoes-programacao%2F&psig=AOvVaw0uJX6xotudDO6RbQ_Wf0Jf&ust=1663868045330000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMC7zeW1pvoCFQAAAAAdAAAAABAD) center no-repeat;
+  background-size: 100% 100%;
+}
+
 .opcoes {
   padding: 10px;
 }
